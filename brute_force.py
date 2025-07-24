@@ -20,4 +20,14 @@ def brute_attack(target_hash, hash_algo, charset, max):
         x=x+1
     print(f"Tried {attempts} combinations. Not found.")
     print(f"Time: {time.time() - start:.2f} s")
+    difficulty_level(attempts)
     return False
+
+def difficulty_level(attempts):
+    if attempts < 10:
+        print("Very Easy Password")
+    elif attempts < 40:
+        if attempts > 10:
+            print("Easy Password")
+    elif attempts > 50:
+            print("Moderate Level")

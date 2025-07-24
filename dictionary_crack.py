@@ -20,5 +20,5 @@ def dictionary_crack(final, hash_algo, file):
         print(f"Tried {count} passwords. Not found.")
     except FileNotFoundError:
         print(f"Dictionary file '{file}' not found.")
-    print(f"Time: {time.time() - start:.2f} s")
+    print(f"Time: {time.time() - start:.2f} s")    
     return False

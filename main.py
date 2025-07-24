@@ -33,6 +33,8 @@ def main():
         print("Not Valid :/")
     if not solved:
         print("\nPassword Not Found, Unfortunately :)")
+        print("The Hash is Strong")
 
 if __name__ == "__main__":
     main()
+
