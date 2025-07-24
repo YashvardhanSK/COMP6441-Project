@@ -3,8 +3,7 @@ from dictionary_crack import dictionary_crack
 
 def disclaim():
     print("*" * 21)
-    print("*  This tool is only to learn about hashes and algorithms")
-    print("*  Not advised for personal use")
+    print("This tool is only to learn about hashes and algorithms")
     print("*" * 21)
     print()
 
